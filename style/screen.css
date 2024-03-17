@@ -1,0 +1,47 @@
+/* Gaya untuk elemen yang berlaku untuk semua perangkat */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Lebar container untuk desktop */
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+/* Media query untuk ponsel */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%; /* Lebar container untuk ponsel */
+    }
+
+    /* Gaya tambahan untuk ponsel */
+}
+
+/* Media query untuk tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 90%; /* Lebar container untuk tablet */
+    }
+
+    /* Gaya tambahan untuk tablet */
+}
+
+/* Media query untuk desktop */
+@media screen and (min-width: 1025px) {
+    .container {
+        width: 80%; /* Lebar container untuk desktop */
+    }
+
+    /* Gaya tambahan untuk desktop */
+}

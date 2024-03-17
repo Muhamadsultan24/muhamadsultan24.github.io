@@ -20,6 +20,14 @@ html {
     visibility: hidden;
     width: 100vw;
   }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
   
   .container > div {
     left: 0;
@@ -226,15 +234,15 @@ html {
   }
   
   /* Media Queries */
-  @media screen and (max-height: 1000px) {
+  @media screen and (max-height: 100px) {
     .six .hat {
-      left: 40%;
+      left: 100%;
     }
   }
   
-  @media screen and (max-height: 800px) {
+  @media screen and (max-height: 100px) {
     .six .hat {
-      left: 37%;
+      left: 100%;
     }
   }
   
